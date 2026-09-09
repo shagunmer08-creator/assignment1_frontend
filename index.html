@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shagun Mer — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="statusbar" id="statusbar">
+  <div class="statusbar__inner">
+    <a href="#top" class="statusbar__logo">SM<span class="statusbar__logo-dot">.</span></a>
+    <nav class="statusbar__nav" id="nav">
+      <a href="#about" class="statusbar__link"><span class="statusbar__idx">01</span>about</a>
+      <span class="statusbar__sep"></span>
+      <a href="#projects" class="statusbar__link"><span class="statusbar__idx">02</span>projects</a>
+      <span class="statusbar__sep"></span>
+      <a href="#contact" class="statusbar__link"><span class="statusbar__idx">03</span>contact</a>
+    </nav>
+    <button class="statusbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero__glow hero__glow--a" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--b" aria-hidden="true"></div>
+    <div class="hero__inner reveal">
+      <p class="hero__prompt"><span class="hero__prompt-path">~/portfolio</span> <span class="hero__prompt-sym">$</span> whoami</p>
+      <h1 class="hero__name">Shagun Mer</h1>
+      <p class="hero__role">Frontend Developer, building clean interfaces &amp; a very over-tuned Linux desktop.</p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__head reveal">
+      <span class="section__tag">01 — about</span>
+      <h2 class="section__title">A bit about me</h2>
+    </div>
+
+    <div class="about__grid">
+      <div class="glass about__card about__card--avatar reveal">
+        <div class="avatar">SM</div>
+        <p class="about__location">Linux desktop, permanently mid-rice.</p>
+        <div class="about__chips">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Git</span>
+          <span class="chip">Hyprland</span>
+          <span class="chip">Linux</span>
+        </div>
+      </div>
+
+      <div class="glass about__card about__card--bio reveal">
+        <p class="about__bio">
+          I'm Shagun — a frontend developer who spends about as much time tuning my
+          own desktop environment as I do shipping interfaces for other people.
+          I run CachyOS with Hyprland, chasing a frosted-glass, dark-mode-everywhere
+          aesthetic across terminal, bar, and lock screen — which, unsurprisingly,
+          bled straight into how I designed this site.
+        </p>
+        <p class="about__bio">
+          On the browser side I care about the same things: clear hierarchy,
+          restrained motion, and interfaces that feel considered rather than
+          assembled from a template. I'm currently digging into local LLM
+          workflows alongside frontend work, tying automation into how I build.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section__head reveal">
+      <span class="section__tag">02 — projects</span>
+      <h2 class="section__title">Selected work</h2>
+      <p class="section__note">Placeholder entries — swap in your real projects and links.</p>
+    </div>
+
+    <div class="projects__grid">
+
+      <article class="window reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">project-one.config</span>
+        </div>
+        <div class="window__body">
+          <h3 class="window__title">Project One</h3>
+          <p class="window__desc">Short description of what this project does and the problem it solves. Replace with your real project summary.</p>
+          <div class="window__tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JS</span>
+          </div>
+          <a href="#" class="window__link">View project →</a>
+        </div>
+      </article>
+
+      <article class="window reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">project-two.config</span>
+        </div>
+        <div class="window__body">
+          <h3 class="window__title">Project Two</h3>
+          <p class="window__desc">Short description of what this project does and the problem it solves. Replace with your real project summary.</p>
+          <div class="window__tags">
+            <span class="tag">React</span>
+            <span class="tag">Tailwind</span>
+          </div>
+          <a href="#" class="window__link">View project →</a>
+        </div>
+      </article>
+
+      <article class="window reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">project-three.config</span>
+        </div>
+        <div class="window__body">
+          <h3 class="window__title">Project Three</h3>
+          <p class="window__desc">Short description of what this project does and the problem it solves. Replace with your real project summary.</p>
+          <div class="window__tags">
+            <span class="tag">Python</span>
+            <span class="tag">API</span>
+          </div>
+          <a href="#" class="window__link">View project →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section__head reveal">
+      <span class="section__tag">03 — contact</span>
+      <h2 class="section__title">Let's talk</h2>
+    </div>
+
+    <div class="contact__grid">
+      <div class="glass contact__terminal reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">contact.sh</span>
+        </div>
+        <div class="terminal__body">
+          <p class="terminal__line"><span class="terminal__prompt">$</span> mail --to shagun</p>
+          <p class="terminal__out"><a href="mailto:shagun@example.com">shagun@example.com</a></p>
+          <p class="terminal__line"><span class="terminal__prompt">$</span> open github</p>
+          <p class="terminal__out"><a href="https://github.com/shagunmer00-creator" target="_blank" rel="noopener">github.com/shagunmer00-creator</a></p>
+          <p class="terminal__line"><span class="terminal__prompt">$</span> open linkedin</p>
+          <p class="terminal__out"><a href="https://www.linkedin.com/in/shagun-mer-041a38376" target="_blank" rel="noopener">linkedin.com/in/shagun-mer</a></p>
+        </div>
+      </div>
+
+      <form class="glass contact__form reveal" id="contactForm">
+        <label class="field">
+          <span class="field__label">Name</span>
+          <input type="text" name="name" required>
+        </label>
+        <label class="field">
+          <span class="field__label">Email</span>
+          <input type="email" name="email" required>
+        </label>
+        <label class="field">
+          <span class="field__label">Message</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Send message</button>
+        <p class="field__note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <p class="footer__copy">© <span id="year"></span> Shagun Mer. Built by hand, tuned like a rice.</p>
+    <a href="documentation.md" download class="btn btn--ghost btn--small">Download documentation</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
