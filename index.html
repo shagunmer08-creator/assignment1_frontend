@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shagun Mer — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="statusbar" id="statusbar">
+  <div class="statusbar__inner">
+    <a href="#top" class="statusbar__logo">SM<span class="statusbar__logo-dot">.</span></a>
+    <nav class="statusbar__nav" id="nav">
+      <a href="#about" class="statusbar__link"><span class="statusbar__idx">01</span>about</a>
+      <span class="statusbar__sep"></span>
+      <a href="#skills" class="statusbar__link"><span class="statusbar__idx">02</span>skills</a>
+      <span class="statusbar__sep"></span>
+      <a href="#projects" class="statusbar__link"><span class="statusbar__idx">03</span>projects</a>
+      <span class="statusbar__sep"></span>
+      <a href="#contact" class="statusbar__link"><span class="statusbar__idx">04</span>contact</a>
+    </nav>
+    <button class="statusbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero__glow hero__glow--a" aria-hidden="true"></div>
+    <div class="hero__glow hero__glow--b" aria-hidden="true"></div>
+    <div class="hero__inner reveal">
+      <p class="hero__prompt"><span class="hero__prompt-path">~/portfolio</span> <span class="hero__prompt-sym">$</span> whoami</p>
+      <h1 class="hero__name">Shagun Mer</h1>
+      <p class="hero__role">B.Tech CSE Student | Aspiring Software Developer | Web Development Enthusiast</p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section__head reveal">
+      <span class="section__tag">01 — about</span>
+      <h2 class="section__title">A bit about me</h2>
+    </div>
+
+    <div class="about__grid">
+      <div class="glass about__card about__card--avatar reveal">
+        <img src="images/profile.jpg" alt="Profile photo of Shagun Mer" class="profile-image">
+        <p class="about__name">Shagun Mer</p>
+        <p class="about__location">Dehradun, India</p>
+
+        <div class="about__chips">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">C</span>
+          <span class="chip">Python</span>
+          <span class="chip">Java</span>
+          <span class="chip">Git &amp; GitHub</span>
+        </div>
+      </div>
+
+      <div class="glass about__card about__card--bio reveal">
+        <p class="about__bio">
+          I'm Shagun Mer, a Core B.Tech Computer Science and Engineering student
+          at UPES. I chose CSE because I am interested in technology, programming
+          and building useful applications.
+        </p>
+        <p class="about__bio">
+          I am particularly interested in web development and I am currently
+          learning Java and HTML. My goal is to become a software developer and
+          continue improving my programming and problem-solving skills through
+          practical projects.
+        </p>
+
+        <div class="about__details">
+          <p><strong>Roll Number:</strong> 590027223</p>
+          <p><strong>Batch:</strong> 4</p>
+          <p><strong>Course:</strong> Core B.Tech CSE</p>
+          <p><strong>University:</strong> UPES</p>
+          <p><strong>Location:</strong> Dehradun</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="skills" id="skills">
+    <div class="section__head reveal">
+      <span class="section__tag">02 — skills</span>
+      <h2 class="section__title">Technologies I work with</h2>
+      <p class="section__note">Skills I am learning and using in my academic projects.</p>
+    </div>
+
+    <div class="skills__grid reveal">
+      <div class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3><p>Creating structured web pages.</p></div>
+      <div class="skill-card"><span class="skill-icon">{ }</span><h3>CSS</h3><p>Designing responsive interfaces.</p></div>
+      <div class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Adding interactive functionality.</p></div>
+      <div class="skill-card"><span class="skill-icon">C</span><h3>C</h3><p>Programming fundamentals and logic.</p></div>
+      <div class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3><p>Programming and project development.</p></div>
+      <div class="skill-card"><span class="skill-icon">Ja</span><h3>Java</h3><p>Currently learning Java programming.</p></div>
+      <div class="skill-card"><span class="skill-icon">Git</span><h3>Git &amp; GitHub</h3><p>Version control and project hosting.</p></div>
+      <div class="skill-card"><span class="skill-icon">PS</span><h3>Problem Solving</h3><p>Developing logical thinking and coding skills.</p></div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section__head reveal">
+      <span class="section__tag">03 — projects</span>
+      <h2 class="section__title">Selected work</h2>
+      <p class="section__note">Academic and frontend projects I have worked on while learning programming.</p>
+    </div>
+
+    <div class="projects__grid">
+
+      <article class="window reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">ai-skin-dermatologist.py</span>
+        </div>
+        <div class="window__body">
+          <h3 class="window__title">AI Skin Dermatologist</h3>
+          <p class="window__desc">An academic AI-based skin analysis project using a graphical interface and computer vision techniques.</p>
+          <div class="window__tags">
+            <span class="tag">Python</span>
+            <span class="tag">Tkinter</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">TensorFlow</span>
+          </div>
+          <a href="#" class="window__link">Project link coming soon →</a>
+        </div>
+      </article>
+
+      <article class="window reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">personal-diary.c</span>
+        </div>
+        <div class="window__body">
+          <h3 class="window__title">Personal Diary Application</h3>
+          <p class="window__desc">A C programming project for creating and managing diary entries using structures and file handling.</p>
+          <div class="window__tags">
+            <span class="tag">C</span>
+            <span class="tag">Structures</span>
+            <span class="tag">File Handling</span>
+          </div>
+          <a href="#" class="window__link">Project link coming soon →</a>
+        </div>
+      </article>
+
+      <article class="window reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">todo-list.html</span>
+        </div>
+        <div class="window__body">
+          <h3 class="window__title">To-Do List Web Application</h3>
+          <p class="window__desc">A frontend web application for adding, completing and deleting daily tasks using HTML, CSS and JavaScript.</p>
+          <div class="window__tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a href="#" class="window__link">Project link coming soon →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section__head reveal">
+      <span class="section__tag">04 — contact</span>
+      <h2 class="section__title">Let's connect</h2>
+    </div>
+
+    <div class="contact__grid">
+      <div class="glass contact__terminal reveal">
+        <div class="window__bar">
+          <span class="window__dot window__dot--a"></span>
+          <span class="window__dot window__dot--b"></span>
+          <span class="window__dot window__dot--c"></span>
+          <span class="window__filename">contact.sh</span>
+        </div>
+        <div class="terminal__body">
+          <p class="terminal__line"><span class="terminal__prompt">$</span> mail --to shagun</p>
+          <p class="terminal__out"><a href="mailto:shagunmer08@gmail.com">shagunmer08@gmail.com</a></p>
+          <p class="terminal__line"><span class="terminal__prompt">$</span> open github</p>
+          <p class="terminal__out"><a href="https://github.com/shagunmer00-creator" target="_blank" rel="noopener">github.com/shagunmer00-creator</a></p>
+          <p class="terminal__line"><span class="terminal__prompt">$</span> open linkedin</p>
+          <p class="terminal__out"><a href="https://www.linkedin.com/in/shagun-mer-041a38376" target="_blank" rel="noopener">linkedin.com/in/shagun-mer</a></p>
+        </div>
+      </div>
+
+      <form class="glass contact__form reveal" id="contactForm">
+        <label class="field">
+          <span class="field__label">Name</span>
+          <input type="text" name="name" required>
+        </label>
+        <label class="field">
+          <span class="field__label">Email</span>
+          <input type="email" name="email" required>
+        </label>
+        <label class="field">
+          <span class="field__label">Message</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Send message</button>
+        <p class="field__note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <p class="footer__copy">© <span id="year"></span> Shagun Mer. B.Tech CSE Student at UPES.</p>
+    <a href="documentation.md" download class="btn btn--ghost btn--small">Download Documentation</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
